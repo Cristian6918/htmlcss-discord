@@ -5,6 +5,7 @@
     
 }
 
+
 .container{
    min-width:max-content;
 }
@@ -32,7 +33,7 @@
     line-height:10vh;
     vertical-align: middle;
     display:flex;
-    justify-content: ;
+    justify-content: space-evenly;
     background-color:hsl(224deg 74% 54%); 
     
 }
@@ -118,7 +119,6 @@ a:hover{
 .btn-container{
     display:flex;
     width:100%;
-    
     justify-content:space-evenly;
 }
 
@@ -181,7 +181,37 @@ a:hover{
 
 .last-part{
     width:100%;
-    height: 100vh;
+    height: 150vh;
+    text-align: center;
+    padding:5vh 10vw 0 10vw;
+    font-weight: 600;
+    position:relative;
+}
+
+.stella{
+  
+    width: 100%;
+    height:30vh;
+}
+
+.stella h2{
+    margin:auto;
+    width:50%;
+    margin-bottom:5vh;
+}
+
+.stella .btn-container{
+    width:80%;
+    margin:auto;
+}
+
+.stella .btn-container a.btn{
+    background-color:hsl(224deg 74% 54% ); 
+    
+    color:white;
+}
+.stella .btn-container a.btn:hover{
+    opacity: 0.5;
 }
 
 
