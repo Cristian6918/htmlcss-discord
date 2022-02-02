@@ -5,6 +5,11 @@
     
 }
 
+.container{
+   min-width:max-content;
+}
+
+
 
 .header{
     width: 100%;
@@ -22,12 +27,13 @@
     line-height:10vh;
     vertical-align: middle;
     display:flex;
+    justify-content: ;
     background-color:hsl(224deg 74% 54%); 
     
 }
 
 .lateral-section-nav{
-    width:15%;
+    width:20%;
     height:100%;
     vertical-align: middle;
     float:left;
@@ -38,7 +44,7 @@
 }
 
 .nav-list{
-    width:calc(100% - 30%);
+    width:calc(100% - 40%);
     height: 100%;
     float:left;
     text-align:center;
@@ -69,15 +75,11 @@ a:hover{
 }
 .btn:hover{
     text-decoration:none;
+    align-items: center;
 }
 
-.header-content{
-    width:100%;
-    height:80vh;
-    position:relative;
-    display:flex;
-   
-}
+
+
 
 .content{
     width:50%;
@@ -87,8 +89,8 @@ a:hover{
     transform: translate(-50%, -50%);
     line-height: 30px;
     color:white;
-    padding:20px;
     text-align: center;
+    max-height: 70vh;
 
 }
 
@@ -104,40 +106,18 @@ a:hover{
 .dark{
     background-color:black;
     color:white;
-    margin-left:30px;
-    margin-top:20px;
+    
     
 }
 
-.main{
-    padding-top:10%;
-    padding-bottom:10%;
+.btn-container{
+    display:flex;
     width:100%;
-    height: 90vh;
     
+    justify-content:space-evenly;
 }
 
-.left{
-    width:50%;
-    float:left;
-    display:inline;
-}
 
-.right{
-    padding: 5% 15%;
-    width: 50%;
-    float: left;
-    font-size: 20px;
-    display: inline;
-}
-
-.onda{
-    height:10vh;
-    width:100%;
-}
-.onda img{
-    height:10vh;
-}
 
 
 
