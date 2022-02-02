@@ -8,6 +8,11 @@
 .container{
    min-width:max-content;
 }
+/* .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
 
 
 
@@ -116,6 +121,71 @@ a:hover{
     
     justify-content:space-evenly;
 }
+
+
+
+.first{
+    width:100%;
+    height: 100vh;
+    padding-top:10vh;
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    
+    
+}
+
+.left-part{
+    float:left; 
+}
+
+
+.right-part{
+    width:30%;
+    padding:60px;
+    float:left;
+}
+
+.right-part p{
+    font-weight: 600;
+}
+
+.onda-sotto:after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background: url(../img/wave.svg)  no-repeat;
+    background-size: cover;
+    opacity: .05;
+}
+
+.onda-sopra:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background: url(../img/wave.svg)  no-repeat;
+    background-size: cover;
+    opacity: .05;
+    transform: rotate(180deg)
+}
+
+.op{
+    background-color:hsl(0deg 0% 95%);
+}
+
+.last-part{
+    width:100%;
+    height: 100vh;
+}
+
+
+    
 
 
 
