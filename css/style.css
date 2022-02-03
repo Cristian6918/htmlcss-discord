@@ -9,16 +9,11 @@
 .container{
    min-width:max-content;
 }
-/* .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
+
 
 
 
 .header{
-    width: 100%;
     height: 90vh;
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -27,7 +22,6 @@
     
 }
 .nav{
-    width:100%;
     height:10vh;
     text-align:center;
     line-height:10vh;
@@ -118,14 +112,13 @@ a:hover{
 
 .btn-container{
     display:flex;
-    width:100%;
     justify-content:space-evenly;
 }
 
 
 
 .first{
-    width:100%;
+    
     height: 100vh;
     padding-top:10vh;
     display: flex;
@@ -180,7 +173,7 @@ a:hover{
 }
 
 .last-part{
-    width:100%;
+   
     height: 150vh;
     text-align: center;
     padding:5vh 10vw 0 10vw;
@@ -189,8 +182,6 @@ a:hover{
 }
 
 .stella{
-  
-    width: 100%;
     height:30vh;
 }
 
@@ -215,7 +206,7 @@ a:hover{
 }
 
 .foot{
-    width: 100%;
+    
     height: 40vh;
     padding:10vh 10vw 0 10vw;
     background-color:hsl(206deg 9% 15%);
@@ -234,6 +225,7 @@ a:hover{
 }
 .row li a{
     font-size:15px;
+    font-weight: 600;
 }
 
 .row li:first-child a {
@@ -275,14 +267,14 @@ a:hover{
   }
 
   .final-footer{
-    width: 100%;
+    
     height: 25vh;
     padding:5vh 10vw;
     background-color:hsl(206deg 9% 15%);
   }
 
   .button-foot{
-      width:100%;
+      
       height: 100%;
       position:relative;
       border-top:1px solid white;
@@ -299,6 +291,9 @@ a:hover{
       bottom:0;
   }
 
+  .w100{
+      width:100%;
+  }
 
 
 
