@@ -214,6 +214,59 @@ a:hover{
     opacity: 0.5;
 }
 
+.foot{
+    width: 100%;
+    height: 60vh;
+    padding:10vh 10vw;
+    background-color:hsl(206deg 9% 15%);
+    display:flex;
+    justify-content: space-between;
+}
+
+.row{
+    width:20%;
+    float:left;
+}
+
+.foot ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.row li a{
+    font-size:15px;
+}
+
+.row li:first-child a {
+    color: hsl(224deg 74% 54% ); 
+  }
+  .row li:first-child a:hover {
+    color: white;
+  }
+
+  .row h2{
+      color:hsl(224deg 74% 54% ); 
+  }
+
+  .italia{
+      width:80%;
+      height:10%;
+      margin-top:20px;
+      display:flex;
+      color:white;
+      font-size: 15px;
+  }
+  .italia p{
+      margin-left:10%;
+
+  }    
+  }
+  .italia img{
+     height:100%;
+  }
+
+
+
+
 
     
 
